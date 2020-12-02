@@ -1,0 +1,16 @@
+cat: &cat
+  name: mimi
+  color: yellow
+  age: 3
+  gender: female
+  fur: short
+
+dog: &dog
+  name: king
+  color: white
+  age: 4
+  gender: male
+  fur: long
+default:
+  <<: *cat
+  <<: *dog
